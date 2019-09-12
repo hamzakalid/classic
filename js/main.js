@@ -93,5 +93,8 @@ $('.list-img-name ul li').on('click',function(){
 
 //}
 
-
+    $('*').on('load',function(){
+        $('body *').hide();
+       $('body').text("loading...")
+    });
 });
