@@ -1,4 +1,6 @@
 $(function(){
+     $('body *').hide();
+       $('body').html('<span class="loading">loading...</span"')
     //All Varaibls
     var theHeader = $('.header'), //selector
         winHeight=$(window).height() , //window Height
@@ -94,7 +96,7 @@ $('.list-img-name ul li').on('click',function(){
 //}
 
     $('*').on('load',function(){
-        $('body *').hide();
-       $('body').text("loading...")
+        $('body *').show();
+       $('.loading').fide();
     });
 });
