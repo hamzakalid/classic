@@ -1,6 +1,6 @@
 $(function(){
-     $('body *').hide();
-       $('body').html('<span class="loading">loading...</span"')
+//      $('body *').hide();
+//        $('body').html('<span class="loading">loading...</span"')
     //All Varaibls
     var theHeader = $('.header'), //selector
         winHeight=$(window).height() , //window Height
@@ -95,8 +95,8 @@ $('.list-img-name ul li').on('click',function(){
 
 //}
 
-    $('*').on('load',function(){
-        $('body *').show();
-       $('.loading').fide();
-    });
+//     $('*').on('load',function(){
+//         $('body *').show();
+//        $('.loading').fide();
+//     });
 });
